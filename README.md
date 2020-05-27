@@ -3,7 +3,7 @@
 A CheatSheet to get you started with docker 
 
 <p align="center">
-<img src="docker.png" height=600px width=400px>
+<img src="docker.png" height=520px width=400px>
 </p>
 
 ## Installation 
@@ -42,3 +42,36 @@ A CheatSheet to get you started with docker
 <p align="center">
 <img src="https://uploads.toptal.io/blog/image/91505/toptal-blog-image-1438607369520-110213f5682347c7ea0c68d46bb17d6d.jpg" >
 </p>
+
+
+## Docker commands
+```sh
+
+ * Check all docker containers
+   docker ps -a
+
+ * Check all started docker containers
+   docker ps
+
+ * Start a stopped container
+   docker start <container-name>
+
+ * Stop a container
+   docker stop <container-name>
+
+ * Remove all containers
+   docker stop $(docker ps -a -q)
+   docker rm $(docker ps -a -q) 
+
+ * Attach to a container
+   docker start <container-name>
+   docker attach <container-name>
+
+ * Run bash shell in container
+   docker container exec -it <container-name> bash
+ 
+ * Delete container forcefully
+   docker container rm -f <container-name>
+
+
+```
