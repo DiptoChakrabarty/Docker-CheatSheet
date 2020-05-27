@@ -87,7 +87,7 @@ A CheatSheet to get you started with docker
 
 ```
 
-## Launching containers
+## Launching containers :computer:
 ```sh
 
  * Launch container from an image
@@ -98,6 +98,21 @@ A CheatSheet to get you started with docker
    d: background process
 
  * Launch container with specific port
-   docker run -it -p "8080:8080" <image-name>
+   docker run -it -p <host-port>:<docker-port>  <image-name>
+   
+ * Lauching an nginx container which runs on port 80
+   docker pull nginx
+   docker run -itd -p 80:80  --name webserver  nginx
+
+   Check using docker ps container should be present
+
+```
+
+
+## Docker file
+```sh
+
+
+
 
 ```
