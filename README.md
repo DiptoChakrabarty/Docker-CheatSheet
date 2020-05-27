@@ -2,9 +2,9 @@
 
 A CheatSheet to get you started with docker 
 
-<div style="text-align:center">
+<p align="center">
 <img src="docker.png">
-</div>
+</p>
 
 ## Installation 
 ```sh
