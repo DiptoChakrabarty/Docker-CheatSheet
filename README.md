@@ -1,32 +1,37 @@
 # Docker-CheatSheet
 
-A CheatSheet for Docker 
+A CheatSheet to get you started with docker 
 
-## Installation
+<img src="docker.png">
+
+
+## Installation 
 ```sh
  
- - Install few packages which are required beforehand
+  This is for Ubuntu
+ 
+    - Install few packages which are required beforehand
 
-   sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    sudo apt install apt-transport-https ca-certificates curl software-properties-common
 
- - Add GPG key 
+    - Add GPG key 
 
-   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
- - Add Docker repository to apt sources
+    - Add Docker repository to apt sources
 
-   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+    sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 
- - Update your existing list of packages
-   
-   sudo apt update
+    - Update your existing list of packages
+    
+    sudo apt update
 
- - Install Docker-ce
+    - Install Docker-ce
 
-   sudo apt install docker-ce
+    sudo apt install docker-ce
 
- - Start Docker Process
+    - Start Docker Process
 
-   sudo systemctl status docker 
+    sudo systemctl status docker 
 
 ```
