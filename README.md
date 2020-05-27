@@ -44,7 +44,7 @@ A CheatSheet to get you started with docker
 </p>
 
 
-## Docker commands
+## Docker commands :whale2:
 ```sh
 
  * Check all docker containers
@@ -84,5 +84,20 @@ A CheatSheet to get you started with docker
    docker tag <localsystem image name>   <username>/<preferred image name>
    docker push <username>/<preferred image name>
 
+
+```
+
+## Launching containers
+```sh
+
+ * Launch container from an image
+   docker run -itd --name <container-name>  <image-name>
+
+   i: interactive
+   t: tty
+   d: background process
+
+ * Launch container with specific port
+   docker run -it -p "8080:8080" <image-name>
 
 ```
