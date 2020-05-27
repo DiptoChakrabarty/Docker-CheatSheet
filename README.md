@@ -76,14 +76,8 @@ A CheatSheet to get you started with docker
  * Download a new docker image
    docker pull <image-name:version>
 
- * Build a docker image using a Dockerfile
-   docker build -t <image name you want to give>  <Dockerfile path>
-
- * Push image to docker hub
-   docker login  (Login to docker hub only needed once)
-   docker tag <localsystem image name>   <username>/<preferred image name>
-   docker push <username>/<preferred image name>
-
+ * Docker Stats
+   docker stats
 
 ```
 
@@ -112,7 +106,14 @@ A CheatSheet to get you started with docker
 ## Docker file
 ```sh
 
+ * Build a docker image using a Dockerfile
+   docker build -t <image name you want to give>  <Dockerfile path>
 
+ 
+ * Push image to docker hub
+   docker login  (Login to docker hub only needed once)
+   docker tag <localsystem image name>   <username>/<preferred image name>
+   docker push <username>/<preferred image name>
 
 
 ```

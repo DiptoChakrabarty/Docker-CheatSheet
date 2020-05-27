@@ -1,0 +1,9 @@
+version: "3"
+services:
+   slots:
+        container_name: slot
+        restart: always
+        image: diptochakrabarty/fsf:v6
+        ports:
+            - "3000:3000"
+        command: node app.js
