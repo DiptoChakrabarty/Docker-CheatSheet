@@ -3,7 +3,7 @@
 A CheatSheet to get you started with docker 
 
 <p align="center">
-<img src="docker.png" height=520px width=400px>
+<img src="docker.png" height=520px width=470px>
 </p>
 
 ## Installation 
@@ -72,6 +72,17 @@ A CheatSheet to get you started with docker
  
  * Delete container forcefully
    docker container rm -f <container-name>
+
+ * Download a new docker image
+   docker pull <image-name:version>
+
+ * Build a docker image using a Dockerfile
+   docker build -t <image name you want to give>  <Dockerfile path>
+
+ * Push image to docker hub
+   docker login  (Login to docker hub only needed once)
+   docker tag <localsystem image name>   <username>/<preferred image name>
+   docker push <username>/<preferred image name>
 
 
 ```
