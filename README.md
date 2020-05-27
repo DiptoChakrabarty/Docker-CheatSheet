@@ -1,9 +1,9 @@
-# Docker-CheatSheet
+# :star2: Docker-CheatSheet :star2:
 
 A CheatSheet to get you started with docker 
 
 <p align="center">
-<img src="docker.png">
+<img src="docker.png" height=600px width=400px>
 </p>
 
 ## Installation 
@@ -36,3 +36,9 @@ A CheatSheet to get you started with docker
     sudo systemctl status docker 
 
 ```
+
+## Difference between Docker and VMs
+
+<p align="center">
+<img src="https://uploads.toptal.io/blog/image/91505/toptal-blog-image-1438607369520-110213f5682347c7ea0c68d46bb17d6d.jpg" >
+</p>
