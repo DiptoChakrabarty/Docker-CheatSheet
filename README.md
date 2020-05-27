@@ -125,7 +125,7 @@ A CheatSheet to get you started with docker
 ```
 
 ## Cool Links to Follow and Checkout
-```sh
+
 - How Netflix Uses Devops
   [Blog 1](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
   [Blog 2](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249)
@@ -135,5 +135,3 @@ A CheatSheet to get you started with docker
 - [Devops  Mercedes-Benz](https://www.youtube.com/watch?v=PR-vV1zS1JE&feature=youtu.be)
 
 - [Use cases of Kubernetes](https://dzone.com/articles/how-big-companies-are-using-kubernetes)
-
-```
