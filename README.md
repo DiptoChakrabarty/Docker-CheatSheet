@@ -124,6 +124,20 @@ A CheatSheet to get you started with docker
 
 ```
 
+## Install docker compose
+```sh
+
+ - Download the latest version of Docker Compose
+   sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+ - Change file permissions
+   sudo chmod +x /usr/local/bin/docker-compose
+
+ - Verify Installation
+   docker–compose –version
+
+```
+
 ## Cool Links to Follow and Checkout
 
 - How Netflix Uses Devops
