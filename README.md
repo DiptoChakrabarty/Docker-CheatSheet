@@ -85,6 +85,9 @@ A CheatSheet to get you started with docker
  * Delete an Image
    docker rmi <image-name>
 
+ * Check all the networks created by docker
+   docker network ls 
+
 ```
 
 ## Launching containers :computer:
@@ -135,6 +138,20 @@ A CheatSheet to get you started with docker
 
  - Verify Installation
    docker–compose –version
+
+```
+
+## Working with docker compose 
+```sh
+
+ - Launch containers using docker compose file
+   docker-compose up
+
+ - Launch in background 
+   docker-compose up -d
+
+ - Check logs of docker compose
+   docker-compose logs
 
 ```
 
