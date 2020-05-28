@@ -84,6 +84,12 @@ A CheatSheet to get you started with docker
 
  * Delete an Image
    docker rmi <image-name>
+  
+ * Remove all images
+   docker image prune -a
+
+ * Remove unused images
+   docker image prune
 
  * Check all the networks created by docker
    docker network ls 
