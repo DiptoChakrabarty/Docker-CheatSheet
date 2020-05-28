@@ -109,6 +109,9 @@ A CheatSheet to get you started with docker
 
    Check using docker ps container should be present
 
+ * Check a running container
+   docker inspect <container-name>
+
 ```
 
 
