@@ -144,6 +144,9 @@ A CheatSheet to get you started with docker
 
  - Change file permissions
    sudo chmod +x /usr/local/bin/docker-compose
+ 
+ - Linking 
+   sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
  - Verify Installation
    docker–compose –version
