@@ -92,7 +92,10 @@ A CheatSheet to get you started with docker
    docker image prune
 
  * Check all the networks created by docker
-   docker network ls 
+   docker network ls
+ 
+ * Create Image from base container
+   docker commit {base image} {new image name}
 
 ```
 
