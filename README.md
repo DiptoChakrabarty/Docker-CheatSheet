@@ -181,8 +181,3 @@ A CheatSheet to get you started with docker
 - [Devops  Mercedes-Benz](https://www.youtube.com/watch?v=PR-vV1zS1JE&feature=youtu.be)
 
 - [Use cases of Kubernetes](https://dzone.com/articles/how-big-companies-are-using-kubernetes)
-
-
-### Infrastructure model
-
-![Infrastructure model](.infragenie/infrastructure_model.png)
